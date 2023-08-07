@@ -1,0 +1,58 @@
+# Ignore Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore virtual environment
+.venv/
+.env/
+bitnami/
+venv/
+env/
+*.venv
+*.vpy
+*.pyenv
+
+# Ignore Jupyter Notebook files
+.ipynb_checkpoints
+
+# Ignore log files and databases
+*.log
+*.sqlite
+
+# Ignore Docker related files
+*.env                  # To ensure no environment-specific secrets are committed
+.DS_Store              # For MacOS users
+docker-compose.override.yml
+
+# Ignore Kubernetes persistent volumes
+*.pv
+*.pvc
+
+# Ignore IDE specific settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore distribution / compiled Python files
+*.egg-info/
+dist/
+build/
+
+# Node modules for frontend if exists in the future
+node_modules/
+
+# Other common files to ignore
+*.bak
+*.cache
+*.tmp
+*.tmp.*
+*.nohup.out
+
+# Operating system generated files
+ehthumbs.db
+Thumbs.db
+
+# Ignore .git directory
+.git/

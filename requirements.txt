@@ -1,0 +1,10 @@
+fastapi[all]
+aioredis
+aiokafka
+celery
+flower
+redis
+sqlalchemy
+psycopg2-binary
+pydantic
+fastapi-cache2[redis]
