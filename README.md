@@ -2,12 +2,22 @@
 
 Welcome to the **Stock Simulator API** documentation. This API provides endpoints to simulate stock trading and manage user transactions. It's designed to help you create, retrieve, and manage user accounts, stock data, and transactions for a simple stock trading simulation.
 
-## Steps to run
-1. Bash script for project setup 
+## Ways to run
+1. Through Bash script 
 ```
 ./start.sh
 ```
-2. Visit the [API Doc here](http://localhost:8000/docs#/) to try out the APIs
+2. Through docker compose
+```
+docker compose up --build
+
+# to generate random stock data
+docker exec -it fastapi python /app/generate_stock_script.py
+```
+
+## API Documentation
+
+Visit the [API Doc here](http://localhost:8000/docs#/) to try out the APIs
 ## Table of Contents
 
 - [Introduction](#introduction)
