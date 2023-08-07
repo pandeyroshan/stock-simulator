@@ -16,5 +16,7 @@ sleep 30
 echo "Starting fastapi container..."
 docker-compose restart fastapi
 
+docker exec -it fastapi python /app/generate_stock_script.py
+
 # End of script
 echo "Script finished."

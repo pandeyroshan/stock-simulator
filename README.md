@@ -7,7 +7,7 @@ Welcome to the **Stock Simulator API** documentation. This API provides endpoint
 ```
 ./start.sh
 ```
-
+2. Visit the [API Doc here](http://localhost:8000/docs#/) to try out the APIs
 ## Table of Contents
 
 - [Introduction](#introduction)

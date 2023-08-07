@@ -3,6 +3,7 @@ version: '3.3'
 services:
   fastapi:
     build: .
+    container_name: fastapi
     ports:
       - "8000:8000"
     volumes:
