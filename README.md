@@ -130,4 +130,4 @@ The **Stock Simulator** API is a RESTful service built using OpenAPI 3.1.0. It p
   - `msg` (string): Error message
   - `type` (string): Error type
 
-Feel free to explore the endpoints and schemas to understand how to interact with the Stock Simulator API. If you have any questions or need further assistance, please refer to this documentation or contact our support team. Happy stock trading! 📈📉
+Feel free to explore the endpoints and schemas to understand how to interact with the Stock Simulator API.
